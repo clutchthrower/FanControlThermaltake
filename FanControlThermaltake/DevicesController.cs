@@ -6,7 +6,7 @@ namespace FanControl.ThermaltakeRiingPlus
     public class DevicesController
     {
         protected int VendorId = 0x264a;
-        protected int ProductId = 0x2260;
+        protected int ProductId = 0x1fa5;
         protected int MaxConnectedDevices = 5;
         protected bool isConnected = false;
         protected List<TTFanController> Devices = new List<TTFanController>();
