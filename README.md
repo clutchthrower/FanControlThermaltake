@@ -1,3 +1,24 @@
+# Just a quick temporary patch
+Learned about [Fan Control](https://github.com/Rem0o/FanControl.Releases) and was past ready to ditch ThermalTakes (not GREAT, but better than the first version) software to quickly learn it would control my fans... Had to get RiingPlus Fans working!
+
+![Screenshot_20230207_035744](https://user-images.githubusercontent.com/63625821/217364490-e2dfe38a-ce68-4e90-a7a4-cc5113b8751f.png)
+
+
+# Assisted Setup
+Worked great, but couldnt see rpms on one of the fans. After the setup you just had to manually pair the speed sensor.
+
+
+*Issues:*
+- The fans will say there is a discrepancy between the target and its value.
+    - I just set them all to 'Force Apply'
+- You can even open TT RGB Plus to play with the RGB!
+    - The fan controller might glitch/not work. Just need to close TT RGB and toggle the switches.
+
+
+
+
+
+
 # FanControl Thermaltake Plugin
 This is a plugin that let's [Fan Control](https://github.com/Rem0o/FanControl.Releases) connect to a Thermaltake Fan Controller. Right now this is a proof-of-concept thing. The code is sub-optimal and only connects to the controller you get with the Riing Plus fans.
 
